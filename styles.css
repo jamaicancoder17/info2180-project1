@@ -34,3 +34,51 @@ h2{
     font-size: 24px;
     color: #48BB78;
 }
+
+h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.card{
+    border: #E2E8F0;
+    box-shadow: 5px 10px;
+    border-radius: 5px;
+}
+
+.testing-desciption{
+    background-color: #4A5568;
+    color: white;
+}
+
+.cta{
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.stories a{
+    color: #5A67D8;
+}
+
+.article-body h3{
+    font-size: 18px;
+    color: #5A67D8;
+}
+
+.container img{
+    border-radius: 50%;
+}
+
+.newsletter{
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter .btn{
+    background-color: #5a67d8;
+}
+
+.footer{
+    background-color: #4a5568;
+    color: white;
+}
