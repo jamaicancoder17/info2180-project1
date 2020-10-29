@@ -1,8 +1,21 @@
-/* Add your CSS to this file */
 :root{
     --defaultFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif
 
 }
+h1{
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    margin:12px;
+    padding: 5px;
+}
+
 body {
     font-family: var(--defaultFontFamily);
     font-size: 18px;
@@ -42,7 +55,7 @@ h3{
 
 .card{
     border: #E2E8F0;
-    box-shadow: 5px 10px;
+    box-shadow: 2px 2px 2px 2px grey;
     border-radius: 5px;
 }
 
@@ -81,4 +94,20 @@ h3{
 .footer{
     background-color: #4a5568;
     color: white;
+}
+
+.overview-hero{
+    background-color: #d3d3d4;
+    padding-bottom: 80px;  
+    padding-top: 30px; 
+}
+
+.overview-hero-image > img{
+    float:left;
+    margin-right: 20px;
+    border-radius: 0%;
+}
+
+.overview-hero-text > h2 p{
+    float:right;
 }
