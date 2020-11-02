@@ -178,6 +178,7 @@ article{
     padding-bottom: 20px;
 }
 
+
 article > img{
     grid-area: "image";
 }
