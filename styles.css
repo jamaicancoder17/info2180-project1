@@ -178,6 +178,9 @@ article{
     padding-bottom: 20px;
 }
 
+p a{
+    text-decoration: none;
+}
 
 article > img{
     grid-area: "image";
@@ -199,8 +202,8 @@ article > .article-body{
 .newsletter .container{
     text-align: center;
     height: 250px;
-    
 }
+
 .newsletter .container .h3{
     padding-top: 200px;
     color: white;
