@@ -2,14 +2,17 @@
     --defaultFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif
 
 }
+
 h1{
     float: left;
     padding-right: 10px;
+    
 }
 
 ul{
     list-style-type: none;
     float: right;
+    padding-left: 200px;
 }
 
 li{
@@ -40,7 +43,7 @@ body {
     max-width: 960px;
 }
 
-header{
+header .container{
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -59,6 +62,7 @@ header{
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
+    
 }
 
 .card h3{
@@ -83,8 +87,8 @@ header{
 .testing > .container{
     display: flex;
     flex-direction: row;
-    height: 100px;
-    padding-top: 20px;
+    height: 150px;
+    padding-top: 40px;
 }
 
 .testing-description{
@@ -94,19 +98,22 @@ header{
 .testing-description > h2{
     color: white;
     padding-right: 20px;
+    
 }
 
 .cta{
     background-color: #48BB78;
     width: 250px;
-    height: 50px;
+    height: 40px;
+    
 }
 
-.btn{
+.cta .btn{
     padding-left: 25px;
     border-radius: 5px;
     color: white;
-    
+    text-transform: uppercase; 
+    text-decoration: none;   
 }
 
 .stories a{
@@ -131,9 +138,10 @@ header{
     background-color: #5a67d8;
 }
 
-.footer{
+footer{
     background-color: #4a5568;
     color: white;
+    height: 100px;
 }
 
 .overview-hero{
@@ -144,12 +152,18 @@ header{
 
 .overview-hero-image > img{
     float:left;
-    margin-right: 20px;
+    margin-right: 100px;
     border-radius: 0%;
 }
 
 .overview-hero-text > h2 p{
     float:right;
+    padding-left: 50px;
+}
+
+.overview-hero-text > h2{
+    font-weight: normal;
+    padding-left: 50px;
 }
 
 .learn-about{
@@ -182,15 +196,40 @@ article > .article-body{
 }
 
 .newsletter .container{
-    text-align: center
+    text-align: center;
+    height: 250px;
+    
 }
 .newsletter .container .h3{
+    padding-top: 200px;
     color: white;
+    text-align: center;
 }
 
 .newsletter .container p{
     width: 500px;
-    padding-left: 30px;
+    padding-left: 250px;
+    text-align: justify;
 }
+
+form{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input[type = email]{
+    padding: 12px 20px;
+    margin-right: 25px;
+}
+
+button{
+    padding: 12px 20px;
+    color: white;
+    width: 150px;
+}
+
+
+
 
 
